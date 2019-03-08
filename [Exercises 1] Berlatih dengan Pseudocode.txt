@@ -1,0 +1,96 @@
+1). 
+Algoritma/Pseudocode Hukum Newton:
+
+- Program dimulai
+- Masukkan nilai 'm' (massa benda)
+- Masukkan nilai 'a' (percepatan benda)
+- Hitung 'Resultan' = m * a
+- Cetak hasil Resultan 
+- Program Selesai
+
+2). 
+Algoritma Tahun Kabisat
+
+- Program dimulai 
+- Masukkan nilai 'Tahun'
+- Jika 'Tahun' mod 4 = 0 maka 
+	'Tahun' mod 100 = 1, maka Cetak 'Tahun Kabisat'
+  Selain itu 
+	Jika 'Tahun' mod 100 = 0 maka
+	tahun mod 400 = 0, maka Cetak 'Tahun Kabisat'
+	
+	Selain itu, Cetak 'Bukan Tahun Kabisat'
+- Program Selesai
+
+
+Program Tahun Kabisat (Pseudocode)
+
+Kamus:
+tahun: integer
+kesimpulan: string
+
+Deskripsi Algoritma: 
+read (tahun)
+if tahun mod 4 = 0, then 
+	tahun mod 100 = 1, then kesimpulan = 'Tahun kabisat'
+	
+else
+	if tahun mod 100 = 0, then
+	tahun mod 400 = 0, then kesimpulan = 'Tahun Kabisat'
+		
+	else 
+	kesimpulan = 'Bukan Tahun Kabisat'
+
+write (tahun, kesimpulan)
+
+3).
+Algoritma Laundry Day
+
+- Program dimulai
+- Masukkan 'Pakaian'
+- Jika 'Pakaian' < 20, maka
+	Tambahkan 'Pakaian'
+  Selain itu, Mesin cuci dinyalakan
+- Program Selesai
+
+
+Program Laundry Day (Pseudocode)
+
+Kamus: 
+pakaian: integer
+kesimpulan: string
+
+Deskripsi Algoritma: 
+pakaian = 1
+if pakaian < 20, then
+	pakaian+1
+else 
+Kesimpulan = 'Mesin Cuci Dinyalakan'
+
+
+4). 
+Algoritma Periksa Kuku
+
+- Program dimulai
+- Periksa 'kuku siswa'
+- Jika 'kuku siswa' = 'baik', maka
+	Guru akan memuji
+  Selain itu, Guru akan memberikan hukuman
+- Ulangi langkah 2 & 3 sampai 39 kali pengulangan
+- Program Selesai
+
+
+Program Periksa Kuku (Pseudocode)
+
+Kamus: 
+kuku siswa: string
+kesimpulan: string
+
+Deskripsi Algoritma: 
+kuku siswa = 1
+do
+	if kuku siswa = baik, then
+		Kesimpulan: "Guru akan memuji"
+	else, 
+	Kesimpulan: "Guru akan memberi hukuman"
+while (kuku siswa < 41)
