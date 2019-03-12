@@ -25,11 +25,10 @@ Algoritma Tahun Kabisat
 
 Program Tahun Kabisat (Pseudocode)
 
-Kamus:
-tahun: integer
-kesimpulan: string
 
 Deskripsi Algoritma: 
+
+Start
 read (tahun)
 if tahun mod 4 = 0, then 
 	tahun mod 100 = 1, then kesimpulan = 'Tahun kabisat'
@@ -56,11 +55,10 @@ Algoritma Laundry Day
 
 Program Laundry Day (Pseudocode)
 
-Kamus: 
-pakaian: integer
-kesimpulan: string
 
 Deskripsi Algoritma: 
+
+Start
 pakaian = 1
 if pakaian < 20, then
 	pakaian+1
@@ -82,11 +80,10 @@ Algoritma Periksa Kuku
 
 Program Periksa Kuku (Pseudocode)
 
-Kamus: 
-kuku siswa: string
-kesimpulan: string
 
 Deskripsi Algoritma: 
+
+Start
 kuku siswa = 1
 do
 	if kuku siswa = baik, then
